@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+About this project: 
+This project is a statically generate blog made with Next.js 13.
+
+Tech used: 
+> Next.js 13
+> Tailwind CSS
+> Typescript
+
+How it's made:
+1. The home route is static-site-generated (SSG) and contains links to dynamically generated blog posts so that new blog posts can be added by adding markdown files to the blog post directory and automatically be rendered. 
+2. getStaticParams is used to pre-fetch the dynamic routes so that the routes can be rendered (SSG) at build time rather than at request (SSR).
+3. The post params are used to dynamically generate page meta data.
+4. The site is responsive and mobile friendly and has been styled with Tailwind
+
 ## Getting Started
 
 First, run the development server:
