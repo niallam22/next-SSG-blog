@@ -2,10 +2,10 @@
 
 This is a [Next.js](https://nextjs.org/) blog using SSG (static-site-generation) to improve SEO and user experience.
 
-### Link to project: https://nialls-ssg-blog.vercel.app/
+## Link to project: https://nialls-ssg-blog.vercel.app/
 ![Navigating the blog](SSG-blog.gif?raw=true "Navigating the blog")
 
-## About this project: 
+## About this project: 
 This blog is made with Next.js 13. Blog posts are statically generated from markdown files at build time this supports improved loading speed and improved SEO because the pages don't need to be rendered server side. Blog posts and their corrosponding routes are dynamicall generated which means new posts can be easily created without needing to configure new routes and pages each time.
 
 # Tech used: 
@@ -14,7 +14,7 @@ This blog is made with Next.js 13. Blog posts are statically generated from mark
 > Next.js 13,
 > Tailwind CSS
 
-## How it's made:
+## How it's made:
 1. The home route contains links to dynamically generated routes to blog posts so that new blog posts can be added by creating new markdown files in the blog post directory and be automatically rendered.
 2. getStaticParams is used to pre-fetch the blog posts so that the routes can be rendered SSG at build time rather than at request, server-side-rendering (SSR). This improves speed and SEO. 
 3. Post params are used to dynamically generate page meta data related to the articles to support SEO.
