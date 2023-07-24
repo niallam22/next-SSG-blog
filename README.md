@@ -2,7 +2,7 @@
 
 This is a [Next.js](https://nextjs.org/) blog using SSG (static-site-generation) to improve SEO and user experience.
 
-### Link to project: 
+### Link to project: https://nialls-ssg-blog.vercel.app/
 ![Navigating the blog](SSG-blog.gif?raw=true "Navigating the blog")
 
 ## About this project: 
