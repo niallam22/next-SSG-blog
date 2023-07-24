@@ -20,6 +20,9 @@ This blog is made with Next.js 13. Blog posts are statically generated from mark
 3. Post params are used to dynamically generate page meta data related to the articles to support SEO.
 4. The site is responsive and mobile friendly and has been styled with Tailwind.
 
+## Optimisations
+- Implement page validation with incremental-static-regeneration (ISR) to revalidate the page at set increments or when updates are made
+
 ## Getting Started
 
 First, run the development server:
