@@ -3,7 +3,7 @@
 This is a [Next.js](https://nextjs.org/) blog using SSG (static-site-generation) to improve SEO and user experience.
 
 ### Link to project: 
-![Setting up a meeting](SSG-blog.gif?raw=true "Booking a meeting")
+![Navigating the blog](SSG-blog.gif?raw=true "Navigating the blog")
 
 ## About this project: 
 This blog is made with Next.js 13. Blog posts are statically generated from markdown files at build time this supports improved loading speed and improved SEO because the pages don't need to be rendered server side. Blog posts and their corrosponding routes are dynamicall generated which means new posts can be easily created without needing to configure new routes and pages each time.
