@@ -1,4 +1,4 @@
-## Niall's SSG blog
+### Niall's SSG blog
 
 This is a [Next.js](https://nextjs.org/) blog using SSG (static-site-generation) to improve SEO and user experience.
 
