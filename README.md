@@ -15,8 +15,8 @@ This blog is made with Next.js 13. Blog posts are statically generated from mark
 > Tailwind CSS
 
 ## How it's made:
-1. The home route contains links to dynamically generated routes to blog posts so that new blog posts can be added by creating new markdown files in the blog post directory and be automatically rendered.
-2. getStaticParams is used to pre-fetch the blog posts so that the routes can be rendered SSG at build time rather than at request, server-side-rendering (SSR). This improves speed and SEO. 
+1. The home route contains dynamic routes that link to blog posts. Since the routes are dynamic new blog posts can be added by creating new markdown files in the blog post directory and be automatically rendered.
+2. getStaticParams is used to pre-fetch the blog posts so that the routes can be rendered SSG at build time rather than at request (server-side-rendering (SSR)). This improves speed and SEO. 
 3. Post params are used to dynamically generate page meta data related to the articles to support SEO.
 4. The site is responsive and mobile friendly and has been styled with Tailwind.
 
