@@ -1,18 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Niall's SSG blog
 
-About this project: 
-This project is a statically generate blog made with Next.js 13.
+This is a [Next.js](https://nextjs.org/) blog using SSG (static-site-generation) to improve SEO and user experience.
 
-Tech used: 
+### Link to project: 
+![Setting up a meeting](SSG-blog.gif?raw=true "Booking a meeting")
+
+## About this project: 
+This blog is made with Next.js 13. Blog posts are statically generated from markdown files at build time this supports improved loading speed and improved SEO because the pages don't need to be rendered server side. Blog posts and their corrosponding routes are dynamicall generated which means new posts can be easily created without needing to configure new routes and pages each time.
+
+# Tech used: 
+> Typescript
+> React
 > Next.js 13
 > Tailwind CSS
-> Typescript
 
-How it's made:
-1. The home route is static-site-generated (SSG) and contains links to dynamically generated blog posts so that new blog posts can be added by adding markdown files to the blog post directory and automatically be rendered. 
-2. getStaticParams is used to pre-fetch the dynamic routes so that the routes can be rendered (SSG) at build time rather than at request (SSR).
-3. The post params are used to dynamically generate page meta data.
-4. The site is responsive and mobile friendly and has been styled with Tailwind
+## How it's made:
+1. The home route contains links to dynamically generated routes to blog posts so that new blog posts can be added by creating new markdown files in the blog post directory and be automatically rendered.
+2. getStaticParams is used to pre-fetch the blog posts so that the routes can be rendered SSG at build time rather than at request, server-side-rendering (SSR). This improves speed and SEO. 
+3. Post params are used to dynamically generate page meta data related to the articles to support SEO.
+4. The site is responsive and mobile friendly and has been styled with Tailwind.
 
 ## Getting Started
 
